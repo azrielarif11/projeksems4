@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn2"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/usrtxt"
+            android:layout_width="213dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/black" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-13dp"
+        android:src="@drawable/gambar2"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="-13dp"
+        android:src="@drawable/gambar2"
+        />
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="615dp"
+        android:src="@drawable/gambar2"
+        />
+
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="609dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/gambar2"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/txtlgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_1"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="20dp"
+        android:text="Crate New"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:id="@+id/txtlgn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Account"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtlgn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Pengaduan Masyarakat"
+        android:layout_below="@id/txtlgn1"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/primaryColor"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn2"
+        android:layout_marginTop="84dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/usremail"
+            android:layout_width="213dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtlgn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn2"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/txtlgn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn3"
+
+        android:layout_marginTop="116dp"
+        android:paddingLeft="30dp"
+        android:text="Password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn4"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/usrpw"
+            android:layout_width="213dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/white"
+            android:ems="20"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/btnmasuk"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:width="300dp"
+            android:background="@drawable/button_shape"
+            android:text="Sign In"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</RelativeLayout>
