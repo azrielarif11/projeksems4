@@ -100,7 +100,7 @@
         <EditText
             android:layout_width="213dp"
             android:layout_height="30dp"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/secondColor"
             android:paddingLeft="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/button_shape"
@@ -140,7 +140,7 @@
             android:layout_width="213dp"
             android:layout_height="30dp"
             android:background="@drawable/button_shape"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/secondColor"
             android:inputType="textPassword"
             android:ems="20"
             android:textColorHint="@color/black" />

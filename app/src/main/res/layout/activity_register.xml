@@ -19,7 +19,7 @@
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/button_shape"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/secondColor"
             android:paddingLeft="10dp"
             android:textColorHint="@color/black" />
     </LinearLayout>
@@ -112,9 +112,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtlgn2"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="99dp"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="10dp"
+        android:layout_marginLeft="10dp">
 
         <EditText
             android:id="@+id/usremail"
@@ -122,44 +123,56 @@
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/button_shape"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/secondColor"
             android:paddingLeft="10dp"
             android:textColorHint="@color/black" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtlgn2"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:text="Username" />
 
     <TextView
         android:id="@+id/txtlgn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtlgn2"
+        android:layout_marginTop="80dp"
         android:paddingLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:text="Username" />
+        android:textColor="@color/black"
+        android:text="Email" />
 
     <TextView
         android:id="@+id/txtlgn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtlgn3"
-
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="68dp"
         android:paddingLeft="30dp"
-        android:text="Password" />
+        android:text="Password"
+        android:textColor="@color/black" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtlgn4"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="0dp"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="5dp"
+        android:layout_marginLeft="10dp">
 
         <EditText
             android:id="@+id/usrpw"
             android:layout_width="213dp"
             android:layout_height="30dp"
             android:background="@drawable/button_shape"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/secondColor"
             android:ems="20"
             android:inputType="textPassword"
             android:textColorHint="@color/black" />
